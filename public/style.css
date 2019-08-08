@@ -1,0 +1,120 @@
+*{padding:0;margin:0;outline:0;border:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+body{
+	background: #F2F6F9;
+}
+
+header{
+	display: block;position: relative;
+	width: 100%;height: 125px;
+	
+	background: #FFF;
+	border-bottom:3px solid #E1E9F1;
+}
+
+header #logo{
+	display: block;position: relative;
+	background: url(logo.png) no-repeat center center;
+	
+	margin: auto;
+	top: 15px;
+
+	-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+
+	height: 85px;width: 332px;
+}
+
+header #logo .text{
+	display: block;position: absolute;
+	color: #FFF;
+	
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.85em;
+	
+	background: #3498db;
+	padding: 1px 5px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+
+	bottom: -2px;right: 0;
+}
+
+
+main#content{
+	display: block;position: relative;
+	width: 960px;height: auto;
+	
+	margin:20px auto;
+}
+
+main#content p{
+	display: block;position: relative;
+	width: 100%;height: auto;
+	
+	color: #383838;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	
+	text-align: center;
+}
+
+main#content .box{
+	display: block;position: relative;
+	width: 100%;height: auto;
+	
+	background: #FFF;
+	margin:30px 0;
+	padding: 15px;
+	
+	border-top:2px solid #c0392b;
+}
+
+main#content .box .latency{
+	display: block;position: absolute;
+	right: 15px;bottom: 15px;
+	
+	color: #A1A1A1;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+}
+
+main#content .box .title{
+	display: block;position: relative;
+	
+	color: #383838;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 1.3em;
+	
+	font-weight: bold;
+}
+
+main#content .box .status{
+	display: block;position: relative;
+	
+	color: #C0392B;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	
+	font-weight: 300;
+}
+main#content .box.online .status{color:#27AE60}
+main#content .box.online{border-color:#27AE60}
+
+
+
+@media screen and (max-width:960px){
+	main#content{
+		width: 100%;
+	}
+
+	main#content p{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	main#content .box{
+		height: 120px;
+	}
+}

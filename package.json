@@ -1,0 +1,26 @@
+{
+  "name": "status",
+  "version": "1.0.0",
+  "description": "Status page whiches monitor all our services",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GameIndus/status.git"
+  },
+  "keywords": [
+    "status",
+    "statuspage"
+  ],
+  "author": "Utarwyn <maxime.malgorn@laposte.net>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/GameIndus/status/issues"
+  },
+  "homepage": "https://github.com/GameIndus/status#readme",
+  "dependencies": {
+    "loadtest": "^3.0.7",
+    "nodejs-websocket": "^1.7.2"
+  }
+}
